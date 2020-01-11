@@ -1,7 +1,7 @@
 node {
    def mvnHome
    stage('Preparation') { // for display purposes
-      git 'https://github.com/mariembacha/training-app'           
+      git 'https://github.com/mariembacha/trainig-app.git'           
       mvnHome = tool 'Maven3'
    }
         
